@@ -6,4 +6,21 @@
 
 body {
     background-color: #0D1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+.container {
+    width: 256px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    flex: auto;
+} 
