@@ -6,16 +6,20 @@
 
 body {
     background-color: #111827;
+    height: 100vh;
+}
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
     width: 512px;
     display: flex;
     flex-wrap: wrap;
+    /* box-shadow: ; */
 }
 
 .grid {
@@ -29,4 +33,13 @@ body {
 .grid:hover {
     background-color: #93C5FD;
     transition: background-color 0.1s ease;
+}
+
+/* Controls */
+
+h1 {
+    text-align: center;
+    color: #93C5FD;
+    padding: 50px 0;
+    font-size: 5rem;
 }
