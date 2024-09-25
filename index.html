@@ -14,11 +14,19 @@
 
 <body>
     <header>
-        <h1>Etch-a-Sketch</h1>
+        <h1 class="title">Etch-a-Sketch</h1>
     </header>
 
     <main>
-        <div class="controls"></div>
+        <div class="controls">
+            <button>Color</button>
+            <button>Rainbow</button>
+            <button>Eraser</button>
+            <button>Clear</button>
+
+            <div id="sizeValue" class="size-value">50 X 50</div>
+            <input type="range" min="1" max="100" value="50" id="sizeSlider">
+        </div>
         <div class="container"></div>
     </main>
 
