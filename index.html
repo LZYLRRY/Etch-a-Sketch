@@ -5,9 +5,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch-a-Sketch</title>
+
 
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="javascript.js" defer></script>
 
 </head>
@@ -19,18 +22,16 @@
 
     <main>
         <div class="controls">
-            <button>Color</button>
-            <button>Rainbow</button>
-            <button>Eraser</button>
-            <button>Clear</button>
+            <button id="button-color">Color</button>
+            <button id="button-rainbow">Rainbow</button>
+            <button id="button-eraiser">Eraser</button>
+            <button id="button-clear">Clear</button>
 
             <div id="sizeValue" class="size-value">50 X 50</div>
             <input type="range" min="1" max="100" value="50" id="sizeSlider">
         </div>
         <div class="container"></div>
     </main>
-
-
 
 </body>
 

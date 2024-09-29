@@ -24,7 +24,6 @@ main {
     gap: 100px;
     max-width: 1100px;
     margin: 0 auto;
-    
 }
 
 .container {
@@ -32,16 +31,17 @@ main {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(31, 41, 55);
 }
 
 .grid {
-    background-color: #1F2937;
-    transition: background-color 0.9s ease;
-} 
+    background-color: rgb(31, 41, 55);
+    /* transition: background-color 0.9s ease; */
+}
 
 .grid:hover {
     background-color: #93C5FD;
-    transition: background-color 0.1s ease;
+    /* transition: background-color 0.1s ease; */
 }
 
 /* Controls */
@@ -53,8 +53,4 @@ main {
     justify-content: center;
     gap: 30px;
     width: 200px;
-}
-
-#sizeSlider {
-    /* color: black; */
 }
