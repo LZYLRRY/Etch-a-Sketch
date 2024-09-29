@@ -54,3 +54,16 @@ main {
     gap: 30px;
     width: 200px;
 }
+
+button {
+    background-color: rgb(31, 41, 55);
+    color: #93C5FD;
+    width: 125px;
+    height: 25px;
+    /* padding: 25px; */
+    border: 1px solid #93C5FD;
+}
+
+input {
+    width: 125px;
+}
